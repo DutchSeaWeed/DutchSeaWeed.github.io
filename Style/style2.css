@@ -1,0 +1,76 @@
+html, body
+{
+    margin: 0;
+    background-color: #4d4d4d;
+}
+
+#topBar
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255,0,10,255);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#homeButton
+{
+    background-color: rgba(255,0,10,255);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+#homeButton:hover
+{
+    background-color: rgb(229, 0, 8);
+}
+
+#cartridges
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+#cartridge3
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 250px;
+    height: 188px;
+}
+
+#cartridge4
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 250px;
+    height: 188px;
+}
+
+#cartridge5
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 250px;
+    height: 188px;
+}
+
+#console2
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

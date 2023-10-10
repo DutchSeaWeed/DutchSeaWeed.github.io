@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+<div id = "topBar">
+    <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Main Page</h1></button>
+</div>
+
+<div id="cartridges">
+    <div id="cartridge1" >
+        <div id="cartridge1Img">
+            <img src="img/CartridgePortfolio.png" alt="Portfolio" draggable="true" ondragstart="drag(2)" id="drag1">
+        </div>
+    </div>
+
+
+    <div id="cartridge2">
+        <div id="cartridge2Img">
+            <img src="img/CartridgeAboutMe.png" alt="About Me" draggable="true" ondragstart="drag(3)" id="drag2">
+        </div>
+    </div>
+</div>
+
+<div id="console" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/console.png" alt="N64 Console">
+</div>
+
+<script src = "Script/script.js"></script>
+<script> src = "style.js"</script>
+</body>
+</html>
