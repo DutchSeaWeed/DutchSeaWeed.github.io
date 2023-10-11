@@ -63,30 +63,3 @@ html, body
     display: flex;
     justify-content: center;
 }
-
-@media only screen and (max-width: 1024px)
-{
-    #cartridge1
-    {
-        width: 250px;
-        height: 188px;
-    }
-
-    #cartridge2
-    {
-        width: 250px;
-        height: 188px;
-    }
-
-    #drag1
-    {
-        width: 250px;
-        height: 188px;
-    }
-
-    #drag2
-    {
-        width: 250px;
-        height: 188px;
-    }
-}
