@@ -68,31 +68,25 @@ html, body
 {
     #cartridge1
     {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 188px;
     }
 
     #cartridge2
     {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 188px;
     }
 
     #drag1
     {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 188px;
     }
 
     #drag2
     {
-        width: 200px;
-        height: 150px;
-    }
-
-    #consoleImage
-    {
-        width: 400px;
+        width: 250px;
         height: 188px;
     }
 }
