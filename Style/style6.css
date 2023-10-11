@@ -28,7 +28,7 @@ html, body
     background-color: rgb(229, 0, 8);
 }
 
-#group
+#group1
 {
     padding-top: 25px;
     display: flex;
@@ -39,6 +39,7 @@ html, body
 #group2
 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10px;
@@ -68,10 +69,54 @@ html, body
 #text1
 {
     margin: auto;
-    width: 1200px;
+    padding: 20px;
 }
 
 #text2
 {
     width: 700px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+    #group2
+    {
+        padding: 20px;
+    }
+
+    #pic1
+    {
+        width: 400px;
+        height: 225px;
+        background-color: black;
+    }
+
+    #pic2
+    {
+        width: 400px;
+        height: 225px;
+        background-color: black;
+    }
+
+    #mazePic1
+    {
+        width: 400px;
+        height: 225px;
+        background-color: black;
+    }
+
+    #mazePic2
+    {
+        width: 400px;
+        height: 225px;
+        background-color: black;
+    }
+
+    #mazePic3
+    {
+        width: 600px;
+        height: 337px;
+        background-color: black;
+    }
 }

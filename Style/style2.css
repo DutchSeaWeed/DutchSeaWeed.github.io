@@ -74,3 +74,54 @@ html, body
     justify-content: center;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 1024px)
+{
+    #cartridge3
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #cartridge4
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #cartridge5
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #drag3
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #drag4
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #drag5
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #consoleImage
+    {
+        width: 400px;
+        height: 188px;
+    }
+
+    #consoleImage2
+    {
+        width: 400px;
+        height: 188px;
+    }
+}

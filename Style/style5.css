@@ -33,6 +33,7 @@ html, body
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-right: 30px
 }
 
 #group2
@@ -65,4 +66,33 @@ html, body
 {
     width: 700px;
     height: 400px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    #pic2
+    {
+        width: 700px;
+        height: 315px;
+    }
+
+    #group1
+    {
+        flex-wrap: wrap;
+        padding-bottom: 10px
+    }
+
+    #group2
+    {
+        flex-wrap: wrap;
+        padding-right: 30px;
+    }
+
+    #text2
+    {
+        width: 700px;
+        height: 50px;
+        padding-bottom: 200px;
+    }
+
 }

@@ -63,3 +63,36 @@ html, body
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1024px)
+{
+    #cartridge1
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #cartridge2
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #drag1
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #drag2
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    #consoleImage
+    {
+        width: 400px;
+        height: 188px;
+    }
+}

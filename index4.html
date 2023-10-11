@@ -11,39 +11,39 @@
     <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Main Page</h1></button>
 </div>
 
-
-
-<div id="text1">
-    <h2>This was my first game that I made independently.
-        It’s a simple roguelike where the player must find the exit
-        while fighting through a random map with a random number of enemies.
-    </h2>
-</div>
-
 <div id="group">
+
+    <div id="textHolder1">
+        <h2 id="text1">This was my first game that I made independently.
+            It’s a simple roguelike where the player must find the exit
+            while fighting through a random map with a random number of enemies. To create it I used Unity Game Engine, Visual Studio
+            and programmed in c#.
+        </h2>
+    </div>
+
     <div id="pic1">
-        <img src="img/TopDownShooter1.png" alt="TopDownShooterPicture1">
+        <img id="shooterImg1" src="img/TopDownShooter1.png" alt="TopDownShooterPicture1">
     </div>
     <div id="pic2">
-        <img src="img/TopDownShooter2.png" alt="TopDownShooterPicture2">
+        <img id="shooterImg2" src="img/TopDownShooter2.png" alt="TopDownShooterPicture2">
     </div>
-</div>
 
-<div id="text2">
-    <h2>
-        The map consists of 100 rooms in a 10-10 grid.
-        At the beginning of the game each room has a chance to spawn in which creates the random aspect.
-        This can lead to the first room and the final room not being connected to each other,
-        so that when happens the rooms will continue to randomize until a playable map is created.
-    </h2>
+    <div id="textHolder2">
+        <h2 id="text2">
+            The map consists of 100 rooms in a 10-10 grid.
+            At the beginning of the game each room has a chance to spawn in which creates the random aspect.
+            This can lead to the first room and the final room not being connected to each other,
+            so that when happens the rooms will continue to randomize until a playable map is created.
+        </h2>
+    </div>
 </div>
 
 <div id="group2">
     <div id="pic3">
-        <img src="img/TopDownShooter3.png" alt="TopDownShooterPicture3">
+        <img id="shooterImg3" src="img/TopDownShooter3.png" alt="TopDownShooterPicture3">
     </div>
-    <div id="text3">
-        <h2>
+    <div id="textHolder3">
+        <h2 id="text3">
             When the player enters a room 1-3 enemies will spawn in.
             They will automatically go to the location of the player, and when they collide the player will take damage.
             Only when all the enemies are dead the player can continue to the next rooms.

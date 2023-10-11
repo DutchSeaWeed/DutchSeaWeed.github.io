@@ -31,6 +31,7 @@ html, body
 #group
 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -38,6 +39,7 @@ html, body
 #group2
 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10px;
@@ -64,20 +66,218 @@ html, body
     background-color: black;
 }
 
-#text1
+#textHolder1
 {
-    margin: auto;
+    margin: 20px;
     width: 1200px;
+    height: 100px;
 }
 
-#text2
+#textHolder2
 {
-    margin: auto;
+    margin: 20px;
     width: 1400px;
+    height: 100px;
 }
 
-#text3
+#textHolder3
 {
     width: 600px;
     height: 300px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    #textHolder1
+    {
+        margin: auto;
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 800px;
+    }
+
+    #textHolder2
+    {
+        margin: auto;
+        padding-bottom: 60px;
+        width: 800px;
+    }
+
+    #textHolder3
+    {
+        margin: auto;
+        padding: 20px;
+        width: 800px;
+    }
+
+    #shooterImg1
+    {
+        width: 350px;
+        height: 196px;
+        background-color: black;
+    }
+
+    #shooterImg2
+    {
+        width: 350px;
+        height: 196px;
+        background-color: black;
+    }
+
+    #shooterImg3
+    {
+        width: 350px;
+        height: 197px;
+        background-color: black;
+    }
+
+    #pic1
+    {
+        width: 350px;
+        height: 196px;
+        background-color: black;
+    }
+
+    #pic2
+    {
+        width: 350px;
+        height: 196px;
+        background-color: black;
+    }
+
+    #pic3
+    {
+        width: 350px;
+        height: 197px;
+        background-color: black;
+    }
+
+    #group1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+
+    #group2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+
+    @media only screen and (max-width: 650px)
+    {
+        #textHolder1
+        {
+            margin: auto;
+            padding-bottom: 50px;
+            width: 650px;
+        }
+
+        #textHolder2
+        {
+            margin: auto;
+            padding-bottom: 100px;
+            width: 650px;
+        }
+    }
+
+    @media only screen and (max-width: 600px)
+    {
+        #textHolder1
+        {
+            margin: auto;
+            padding-bottom: 50px;
+            width: 650px;
+        }
+
+        #textHolder2
+        {
+            margin: auto;
+            padding-bottom: 100px;
+            width: 650px;
+        }
+
+        #textHolder3
+        {
+            margin: auto;
+            padding-top: 100px;
+            width: 650px;
+        }
+
+        #pic1
+        {
+            width: 175px;
+            height: 98px;
+            background-color: black;
+        }
+
+        #pic2
+        {
+            width: 175px;
+            height: 98px;
+            background-color: black;
+        }
+
+        #pic3
+        {
+            width: 175px;
+            height: 98px;
+            background-color: black;
+        }
+
+        #shooterImg1
+        {
+            width: 175px;
+            height: 98px;
+            background-color: black;
+        }
+
+        #shooterImg2
+        {
+            width: 175px;
+            height: 98px;
+            background-color: black;
+        }
+    }
+
+    @media only screen and (max-width: 550px)
+    {
+        #textHolder1
+        {
+            margin: auto;
+            padding-bottom: 80px;
+            width: 650px;
+        }
+
+        #textHolder2
+        {
+            margin: auto;
+            padding-bottom: 120px;
+            width: 650px;
+        }
+    }
+
+    @media only screen and (max-width: 450px)
+    {
+        #textHolder2
+        {
+            margin: auto;
+            padding-bottom: 180px;
+            width: 650px;
+        }
+
+        #pic3
+        {
+            width: 350px;
+            height: 197px;
+            background-color: black;
+        }
+
+    }
 }
