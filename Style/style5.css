@@ -165,12 +165,12 @@ html, body
 
 }
 
-@media only screen and (max-width: 420px)
+@media only screen and (max-width: 500px)
 {
     #text1
     {
         margin: auto;
-        padding-bottom: 110px;
+        padding-bottom: 50px;
     }
 }
 .nl-text
