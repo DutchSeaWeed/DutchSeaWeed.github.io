@@ -160,20 +160,20 @@ html, body
     {
         width: 700px;
         height: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
 
 }
 
-@media only screen and (max-width: 755px)
+@media only screen and (max-width: 420px)
 {
     #text1
     {
         margin: auto;
-        padding-bottom: 1px;
+        padding-bottom: 110px;
     }
 }
-
-.nl-text{
+.nl-text
+{
     display: none;
 }
