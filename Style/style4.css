@@ -237,6 +237,22 @@ html, body
         margin-bottom: 10px;
     }
 
+    @media only screen and (max-width: 755px)
+    {
+        #textHolder1
+        {
+            margin: auto;
+            padding-bottom: 70px;
+            width: 650px;
+        }
+
+        #textHolder2
+        {
+            margin: auto;
+            padding-bottom: 120px;
+            width: 650px;
+        }
+    }
 
     @media only screen and (max-width: 650px)
     {
