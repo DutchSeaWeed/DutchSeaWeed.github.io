@@ -8,7 +8,23 @@
 </head>
 <body>
 <div id = "topBar">
-  <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Main Page</h1></button>
+  <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Maze Game</h1></button>
+  <div class="dropdown">
+    <button class="languageButton">
+      <h1 class="en-text">Languages</h1>
+      <h1 class="nl-text">Talen</h1>
+    </button>
+    <div class="languages">
+      <button id="englishButton" onclick="languageToEnglish()">
+        <h2 class="en-text">English</h2>
+        <h2 class="nl-text">Engels</h2>
+      </button>
+      <button id="dutchButton" onclick="languageToDutch()">
+        <h2 class="en-text">Dutch</h2>
+        <h2 class="nl-text">Nederlands</h2>
+      </button>
+    </div>
+  </div>
 </div>
 
 <div id="group1">
@@ -21,13 +37,20 @@
 </div>
 
 <div id="text1">
-  <h2>
+  <h2 class="en-text">
     For this project I combined 2 assignments together.
     For 1 class I had to make something to challenge myself.
     I had to create a goal for myself that had to relate to coding and building games and explain
     why it was a good goal. My goal was to learn how to create a system to switch between characters.
-    For the other class the theme was what is creativity, so I made my game representative of the way
+    For the other class the theme was What Is Creativity, so I made my game representative of the way
       I make up things for my projects.
+  </h2>
+  <h2 class="nl-text">
+    Voor dit project heb ik 2 opdrachten gecombineerd.
+    Ik moest mijzelf uitdagen als de opdracht van de eerste klas.
+    Ik moest een doel bedenken dat te maken had met programeren en games bouwen en uitleggen waarom ik voor dit doel koos.
+    Mijn doel was een systeem bouwen waarmee je van spelers kon wisselen.
+    Het thema van de andere klas was Wat Is Creativiteit, dus wou ik met mijn game laten zien hoe ik op iedeeën kom voor projecten.
   </h2>
 </div>
 
@@ -36,7 +59,7 @@
     <img id="mazePic3" src="img/MazeGame3.png" alt="MazeGamePicture3">
   </div>
   <div id="text2">
-    <h2>
+    <h2 class="en-text">
       The gameplay was you are a character that is stuck in a maze without any knowledge of what is going on.
       As you walk around you can find items like a hat and a shield. These items are meant to be picked up even
       though it’s not clear why they are there. As you walk around you will find out what to do with the items
@@ -44,10 +67,18 @@
       and a character that breaks through certain walls. Switching characters is done by clicking on the
       character you want to become.
     </h2>
+    <h2 class="nl-text">
+      Het spel was dat je een karakter was die vast zat in een doolhof. Je weet niet wat er aan de hand is.
+      Als je rond loopt kan je spullen vinden zoals een hoed en een schild. De bedoeling is dat je die dingen opraapt
+      zonder te weten wat je ermee moet doen. als je steeds verder doorloopt vind je het nut van de
+      opgeraapte spullen en mensen die je kunnen helpen. Het eerste persoon dat je tegenkomt is een kleine man,
+      waarmee je door smalle gangen kan, en de andere is een karakter die door specifieke muren heen kan.
+      Je kan tussen deze karakters wisselen door op ze te klikken.
+    </h2>
   </div>
 </div>
 
 
-
+<script src = "Script/script.js"></script>
 </body>
 </html>
