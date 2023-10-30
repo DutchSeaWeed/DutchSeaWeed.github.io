@@ -156,6 +156,12 @@ html, body
         padding-right: 30px;
     }
 
+    #text1
+    {
+        margin: auto;
+        padding-bottom: 500px;
+    }
+
     #text2
     {
         width: 700px;
@@ -163,15 +169,6 @@ html, body
         padding-bottom: 50px;
     }
 
-}
-
-@media only screen and (max-width: 500px)
-{
-    #text1
-    {
-        margin: auto;
-        padding-bottom: 50px;
-    }
 }
 .nl-text
 {
