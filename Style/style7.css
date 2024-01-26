@@ -28,49 +28,50 @@ html, body
     background-color: rgb(229, 0, 8);
 }
 
-#cartridges
+#group
 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 50vh;
-}
-
-#cartridge3
-{
+    padding-top: 25px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-    width: 250px;
-    height: 188px;
 }
 
-#cartridge4
+#group2
 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-    width: 250px;
-    height: 188px;
+    margin-bottom: 10px;
 }
 
-#cartridge5
+#pic1
 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    width: 250px;
-    height: 188px;
+    width: 700px;
+    height: 374px;
+    background-color: black;
 }
 
-#console2
+#pic2
 {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 700px;
+    height: 360px;
+    background-color: black;
+}
+
+#pic3
+{
+    width: 700px;
+    height: 378px;
+    background-color: black;
+}
+
+#text1
+{
+    margin: auto;
+    width: 1200px;
+}
+
+#text2
+{
+    width: 700px;
 }

@@ -8,23 +8,7 @@
 </head>
 <body>
 <div id = "topBar">
-    <button id="homeButton" onclick="location.href='index.html'"><h1 id="homeButtonText2">Siebe Wiersma: Portfolio</h1></button>
-    <div class="dropdown">
-        <button class="languageButton">
-            <h1 class="en-text">Languages</h1>
-            <h1 class="nl-text">Talen</h1>
-        </button>
-        <div class="languages">
-            <button id="englishButton" onclick="languageToEnglish()">
-                <h2 class="en-text">English</h2>
-                <h2 class="nl-text">Engels</h2>
-            </button>
-            <button id="dutchButton" onclick="languageToDutch()">
-                <h2 class="en-text">Dutch</h2>
-                <h2 class="nl-text">Nederlands</h2>
-            </button>
-        </div>
-    </div>
+    <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Main Page</h1></button>
 </div>
 
 <div id="cartridges">
@@ -34,33 +18,21 @@
         </div>
     </div>
 
-    <button id="cartridge3Small">
-        <img src="img/CartridgeTopDownGameSmall.png" alt="PortfolioSmall" onclick="window.location.href = 'index4.html'">
-    </button>
-
     <div id="cartridge4">
         <div id="cartridge4Img">
             <img src="img/CartridgeMobileGame.png" alt="Mobile Game" draggable="true" ondragstart="drag(5)" id="drag4">
         </div>
     </div>
 
-    <button id="cartridge4Small">
-        <img src="img/CartridgeMobileGameSmall.png" alt="PortfolioSmall" onclick="window.location.href = 'index5.html'">
-    </button>
-
     <div id="cartridge5">
         <div id="cartridge5Img">
             <img src="img/CartridgeMazeGame.png" alt="Maze Game" draggable="true" ondragstart="drag(6)" id="drag5">
         </div>
     </div>
-
-    <button id="cartridge5Small">
-        <img src="img/CartridgeMazeGameSmall.png" alt="PortfolioSmall" onclick="window.location.href = 'index6.html'">
-    </button>
 </div>
 
 <div id="console2" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <img id="consoleImage2" src="img/console.png" alt="N64 Console">
+    <img src="img/console.png" alt="N64 Console">
 </div>
 
 <script src = "Script/script.js"></script>
