@@ -28,13 +28,22 @@ html, body
     background-color: rgb(229, 0, 8);
 }
 
-#cartridges
+#shelf1
 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    height: 50vh;
+    height: 30vh;
+}
+
+#shelf2
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
 }
 
 #cartridge3
