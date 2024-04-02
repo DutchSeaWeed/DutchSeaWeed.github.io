@@ -8,7 +8,27 @@
 </head>
 <body>
 <div id = "topBar">
-    <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Main Page</h1></button>
+    <button id="homeButton" onclick="location.href='index.html'">
+        <h1 class="en-text">Siebe Wiersma: Popstar Energy</h1>
+        <h1 class="nl-text">Siebe Wiersma: Popster Energie</h1>
+    </button>
+
+    <div class="dropdown">
+        <button class="languageButton">
+            <h1 class="en-text">Languages</h1>
+            <h1 class="nl-text">Talen</h1>
+        </button>
+        <div class="languages">
+            <button id="englishButton" onclick="languageToEnglish()">
+                <h2 class="en-text">English</h2>
+                <h2 class="nl-text">Engels</h2>
+            </button>
+            <button id="dutchButton" onclick="languageToDutch()">
+                <h2 class="en-text">Dutch</h2>
+                <h2 class="nl-text">Nederlands</h2>
+            </button>
+        </div>
+    </div>
 </div>
 <div id="group">
     <div id="pic1">
@@ -20,9 +40,14 @@
 </div>
 
 <div id="text1">
-    <h2>
+    <h2 class="en-text">
         I did this project with a group of 7 other people. Me and 1 other programmer built the game while a team of designers made
         the player sprites, background, obstacles such as traps and spikes and the blocks that we used to build the floor and platforms.
+    </h2>
+    <h2 class="nl-text">
+        Ik heb dit project samengewerkt met 7 andere personen. Samen met een andere programmeur bouwden we de game terwijl de 6 designers
+        in ons team de sprites, achtergronden en obstakels zoals berenvallen en stekels. Ook tekende ze de platformen en grond waarom de speler
+        rend.
     </h2>
 </div>
 
@@ -32,14 +57,23 @@
         <img src="img/PopStar3.png" alt="PopStarPicture3">
     </div>
     <div id="text2">
-        <h2>
+        <h2 class="en-text">
             The assignment for the designers was to choose one of the themes and think of a project surrounding that theme.
             I had nothing to do those 3 weeks because we as programmers had to wait for the designers to think of something. After that we
             all came together and talked about each person's ideas. The idea we decided to make a reality was a game about running endlessly
             through while collecting energy drinks to go increase the speed. The game was going to have randomly generated parcour that would
-            difficulty because of the higher speeds.
+            increase in difficulty because of the higher speeds.
+        </h2>
+        <h2 class="nl-text">
+            De opdracht voor de ontwerpers was om een onderwerp te kiezen en daarmee een project verzinnen.
+            Hiervoor hadden ze 3 weken. In de tussentijd konden de programmeurs niks doen dus moesten we gewoon wachten.
+            Daarna kwamen we samen om de ideeën uit te leggen en ons project te kiezen. Het gekozen idee was een spel waar je oneindig
+            bleef rennen terwijl je energiedrankjes verzamelde om sneller te gaan, met een random gegenereerd parcour waar het steeds
+            moeilijker werd door de hogere snelheid.
         </h2>
     </div>
 </div>
+
+<script src = "Script/script.js"></script>
 </body>
 </html>

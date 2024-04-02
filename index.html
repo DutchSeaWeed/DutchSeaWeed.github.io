@@ -7,7 +7,26 @@
 </head>
 <body>
 <div id = "topBar">
-    <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Main Page</h1></button>
+    <button id="homeButton">
+        <h1 class="en-text">Siebe Wiersma: Main Page</h1>
+        <h1 class="nl-text">Siebe Wiersma: Hoofdpagina</h1>
+    </button>
+    <div class="dropdown">
+        <button class="languageButton">
+            <h1 class="en-text">Languages</h1>
+            <h1 class="nl-text">Talen</h1>
+        </button>
+        <div class="languages">
+            <button id="englishButton" onclick="languageToEnglish()">
+                <h2 class="en-text">English</h2>
+                <h2 class="nl-text">Engels</h2>
+            </button>
+            <button id="dutchButton" onclick="languageToDutch()">
+                <h2 class="en-text">Dutch</h2>
+                <h2 class="nl-text">Nederlands</h2>
+            </button>
+        </div>
+    </div>
 </div>
 
 <div id="cartridges">
@@ -17,16 +36,24 @@
         </div>
     </div>
 
+    <button id="cartridge1Small">
+        <img src="img/CartridgePortfolioSmall.png" alt="PortfolioSmall" onclick="window.location.href = 'index2.html'">
+    </button>
+
 
     <div id="cartridge2">
         <div id="cartridge2Img">
             <img src="img/CartridgeAboutMe.png" alt="About Me" draggable="true" ondragstart="drag(3)" id="drag2">
         </div>
     </div>
+
+    <button id="cartridge2Small">
+        <img src="img/CartridgeAboutMeSmall.png" alt="AboutMeSmall" onclick="window.location.href = 'index3.html'">
+    </button>
 </div>
 
 <div id="console" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <img src="img/console.png" alt="N64 Console">
+    <img id="consoleImage" src="img/console.png" alt="N64 Console">
 </div>
 
 <script src = "Script/script.js"></script>

@@ -8,7 +8,24 @@
 </head>
 <body>
 <div id = "topBar">
-    <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Main Page</h1></button>
+    <button id="homeButton" onclick="location.href='index.html'"><h1>Siebe Wiersma: Portfolio</h1></button>
+
+    <div class="dropdown">
+        <button class="languageButton">
+            <h1 class="en-text">Languages</h1>
+            <h1 class="nl-text">Talen</h1>
+        </button>
+        <div class="languages">
+            <button id="englishButton" onclick="languageToEnglish()">
+                <h2 class="en-text">English</h2>
+                <h2 class="nl-text">Engels</h2>
+            </button>
+            <button id="dutchButton" onclick="languageToDutch()">
+                <h2 class="en-text">Dutch</h2>
+                <h2 class="nl-text">Nederlands</h2>
+            </button>
+        </div>
+    </div>
 </div>
 
 <div id="shelf1">
